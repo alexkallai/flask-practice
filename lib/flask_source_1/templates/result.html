@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+{% extends "base.html" %}
+
+{% block content %}
+<table id="data" class="table table-striped">
+
+  <thead>
+    <tr>
+      <th>Key</th>
+	    <th>Value</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for key, value in result.items() %}
+      <tr>
+        <td> {{ key }} </th>
+        <td> {{ value }} </td>
+      </tr>
+    {% endfor %}
+
+</table>
+
+<p></p>
+ App Version: {{ app_version }}
+
+{% endblock %}</title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+lehessen hozzáadni adatbázishoz elemeket
+fájl feltöltés
+kliens oldali visszajelzés
+dockert kipróbálni
